@@ -12,7 +12,7 @@ package business;
 public class GradeChecker {
     public static char checkGrade(double grade){
         if(grade > 10 || grade < 0){
-            return 'e';
+            return 'o';
         }else{
             if(grade >= 5.0){
             return 'p';
